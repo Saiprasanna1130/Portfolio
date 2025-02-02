@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #D3CBCA;
+    width: 100%;
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: #c7bd50;
+    width: 100%;
+}
+#title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+   cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title #para1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#pic{
+    border-radius: 50%;
+    border: 3px solid black;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+}
+#aboutme{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 5px 5px 0;
+    margin-bottom: 50px;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+#skills-name{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 230px;
+}
+#certificate{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+#nameofcer{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#certificates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 150px;
+}
+#cer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+#cer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.temp{
+    height: 50px;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: cadetblue;
+    margin-top: 30px;
+    width: 100%;
+}
+#contact{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#platforms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh; 
+}
+h2:hover{
+    transform: scale(1.5);
+}
+#para1:hover{
+    transform: scale(1.2);
+}
+#pic:hover{
+    transform: scale(1.2);
+}
+#out:hover{
+    transform: scale(1.12,1.12);
+}
+#out{
+    border-radius: 30%;
+}
+#pop:hover{
+    transform: scale(1.12,1.12);
+}
+@media screen and (max-width:500px) {
+    #header{
+        display: flex;
+        max-height: 600px;
+        margin-bottom: 100px;
+    }
+    #pic{
+        margin-bottom: 40px;
+        height: 150px;
+        position: relative;
+    }
+    #certificate{
+        display: flex;
+        max-height: 600px;
+        margin-bottom: 50px;
+    }
+
+}
+@media screen and (width<=545px){
+    #skills{
+        display: flex;
+        max-height: 800px;
+        margin-bottom: 600px;
+    }
+    #courses{
+      display: flex;
+      flex-direction: column;
+    }
+    #certificate{
+        margin-bottom: 100px;
+    }
+    
+
+}
+@media screen and (max-width:800px) {
+    #about{
+        font-size: 2rem;
+        padding: 15px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    #skills{
+        margin-top: 500px;
+    }
+}
+@media screen and (max-width:486px) {
+    #about{
+        width: 100%;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
